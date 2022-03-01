@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+      "cloud_name": "callservice",
+      "api_key": "991731639274958",
+      "api_secret": "R5u-01NOFOp1-fH5rxJHgwGIfr4"
+}
+}

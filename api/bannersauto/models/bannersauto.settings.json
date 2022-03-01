@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bannersautos",
+  "info": {
+    "name": "bannersauto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "product": {
+      "model": "product"
+    },
+    "position": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}
